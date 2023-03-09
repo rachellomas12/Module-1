@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+    header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    nav {
+    float: left;
+    background-color: gold;
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    }
+    article {
+    background-color: rgb(232, 157, 157);
+    float: left;
+    width: 80%;
+    padding: 168px;
+    text-align:left;
+    }
+
+    aside {
+    clear: both;
+    }
+    footer {
+    background: #222;
+    color: #eee;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.9em;
+    }
