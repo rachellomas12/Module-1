@@ -1,7 +1,7 @@
 const book = {
     "title" : "Rachel Lomas Book",
     "description" : "Horror",
-    "author" : "Rachel Lomas",
+    "author" : "Me",
     "number_of_pages" : "987"
     }
 console.log(book.title);

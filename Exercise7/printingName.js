@@ -1,6 +1,6 @@
 const printName = {
     printName: function (name) {
-        return "Hello" + name;
+        return "Hello!" + name;
         }
 
 };

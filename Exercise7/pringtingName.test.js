@@ -6,7 +6,7 @@ describe("Print Name Test", () => {
       var result = printingName.printName("Rachel")
   
       // assert
-      expect(result).toBe("Hello Rachel");
+      expect(result).toBe("Hello Rachel!");
     });
   
    

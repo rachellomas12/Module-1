@@ -1,4 +1,4 @@
-function addition (x, y) {
+function add (x, y) {
     if (x == y) {
         return (x + y);
     }
@@ -7,7 +7,7 @@ function addition (x, y) {
         return (x + y);
     }
 }
-console.log(addition(5, 5));
+console.log(add(5, 5));
 
 function subtraction (x, y) {
     if (x == y) {
