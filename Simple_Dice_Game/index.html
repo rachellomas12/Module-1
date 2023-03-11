@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="container">
+ <div class="container-space"></div>
+    <div class="container-label"><h1>Simple Dice Roller</h1></div>
+    <div class="container-space"></div>
+
+</div>
+
+
+<label style="display: block" for="sidesDropdown">Sides:</label>
+
+<select id="sidesDropdown" onchange="dropDownChanged('dice-0')">
+    <option>2</option>
+    <option>4</option>
+    <option selected>6</option>
+    <option>8</option>
+    <option>10</option>
+    <option>12</option>
+    <option>20</option>
+</select>
+
+<div class="container">
+    <div class="container-space"></div>
+
+  <div class="container-box" style="background-color: rgb(223, 21, 21)">
+    <p id="d4">4</p>
+  </div>
+  
+  <div class="container-box" style="background-color: rgb(241, 245, 7)">
+    <p id="d6">6</p>
+  </div>
+ <div class="container-space"></div>
+</div>
+</div>
+
+
+
+<div class="container"><div class="container-space"></div></div>
+
+<div class="container">
+    <div class="container-space"></div>
+    <button id="button">ROLL DICE</button>
+    <div class="container-space"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

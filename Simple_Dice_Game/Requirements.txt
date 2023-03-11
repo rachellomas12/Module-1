@@ -1,0 +1,6 @@
+Requirements:
+
+- Have 2 boxes with a number in it to represent the dice
+- Have a dropdown box to select the number of sides 
+- Have a roll dice button
+- The 2 boxes that represent the dice should spit out a random number
