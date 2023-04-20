@@ -2,11 +2,10 @@
 // a)  Write a function sumSalaries(salaries) that calculates and returns the total of all salaries
 
 function sumSalaries(salaries) {
-    const ourArray = [35000, 25000, 55000, 75000, 43000];
     let sum = 0;
   
-    for (let i = 0; i < ourArray.length; i += 1) {
-      sum += ourArray[i];
+    for (let i = 0; i < salaries.length; i += 1) {
+      sum += salaries[i];
     }
     
     return sum;
@@ -18,11 +17,21 @@ function sumSalaries(salaries) {
 // earning the highest salary
  
 // number array
-let salaries = { 
-    "Timothy" : 35000, 
-    "David" : 25000, 
-    "Mary" : 55000, 
-    "Christina" : 75000, 
-    "James" : 43000 
-}; 
+
+var salaries = [{
+  employee: [
+  {name: "Timothy", salary : 35000}, 
+  {name: "David", salary: 25000}, 
+  {name: "Mary", salary : 55000}, 
+  {name: "Christina", salary : 75000}, 
+  {name: "James", salary : 43000}
+]
+}
+]; 
+var max = {salary: 0};
+salaries.forEach(p => p.employee.forEach(e => e.salary > max.salary && (max = e)));
+console.log(max);
+
+
+
 
