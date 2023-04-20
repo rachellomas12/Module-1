@@ -24,10 +24,18 @@ console.log(sortAnimals);
 // d)  Write a function replaceMiddleAnimal(newValue) that replaces the value in the 
 // middle of the animals array with newValue
 
-const replaceMiddleAnimal = ['Hyena', 'Chicken', 'Tiger', 'Giraffe', 'Elephant', 'Lion']
-replaceMiddleAnimal[2] = "newValue";
-console.log(replaceMiddleAnimal);
+function replaceMiddleAnimal(newValue) {
+  if(newValue.length % 2 === 0) {
+    return newValue;
+  }
+  newValue[Math.floor((newValue.length - 1) / 2)] = 'newValue';
+  return newValue;
+}
 
+const res = replaceMiddleAnimal(['Hyena', 'Chicken', 'Tiger', 'Giraffe', 'Elephant']);
+
+console.log(res);
+ 
 // e) Write a function findMatchingAnimals(beginsWith) that returns a new array 
 // containing all the animals that begin with the beginsWith string. Try to make it work 
 // regardless of upper/lower case.
