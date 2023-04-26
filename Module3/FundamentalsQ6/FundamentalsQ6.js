@@ -21,12 +21,12 @@ greeting(person) {
     },
 
 
-getCatchPhrase(person) {
-    if (person.numFingers >= 6) {
-    return ( "You killed my father. Prepare to die.");
-    }
+// getCatchPhrase(person) {
+//     if (person.numFingers >= 6) {
+//     return ( "You killed my father. Prepare to die.");
+//     }
+// }
 }
-}
-
+getCatchPhrase: (person) =>  (person.numFingers == 6) ? "You killed my father. Prepare to die.": 'Less than 6 fingers';
 inigo.greeting(westley)
 inigo.greeting(rugen)
