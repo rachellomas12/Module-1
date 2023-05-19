@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #030303;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #080808;
+  display: flex;
+}
+h1 {
+  color: rgb(255, 252, 252);
+  margin-left: 500px;
+  font-size: 40px;
+}
+.search {
+  margin: 3rem;
+  margin-left: 10rem;
+  background-color: transparent;
+  border: 2px solid #e9e9ec;
+  border-radius: 50px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  align-self: right;
+  position: relative;
+}
+.search::placeholder {
+  color: #7378c5;
+}
+.search:focus {
+  background-color: #050505;
+  outline: none;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie {
+  background-color: #0c0c0c;
+  border-radius: 3px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  justify-content: center;
+  align-content: center;
+  width: 170px;
+}
+.movie img {
+  width: 100%;
+}
+.movie-info {
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+.movie-info h3 {
+  margin: 0;
+}
+.movie-info span {
+  background-color: #22254b;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 0.25rem 0.8rem;
+}
+.movie-info span.green {
+  color: rgb(39, 189, 39);
+}
+.movie-info span.orange {
+  color: orange;
+}
+.movie-info span.red {
+  color: rgb(189, 42, 42);
+}
+.overview {
+  background-color: #010101;
+  padding: 2rem;
+  position: absolute;
+  max-height: 100%;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+  color: white;
+}
+.overview h3 {
+  margin-top: 0;
+}
+.movie:hover .overview {
+  transform: translateY(0);
+}
+.homebutton {
+  right: 0px;
+  width: 125px;
+  padding-top: 50px;
+  padding-right: 20px;
+  position: fixed;
+  z-index: 2;
+  margin-right: 1000px;
+}
+
+.homebutton a {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.3em 1.25em;
+  border: 2px solid #e9e9ec;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.667em;
+  text-decoration: none;
+  color: #7378c5;
+  cursor: pointer;
+  background: #0a0a0a;
+  transition: color, border-color ease 0.3s;
+  border-radius: 2em;
+}
+.homebutton a:hover {
+  border-color: #42b6f3;
+  color: #42b6f3;
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+Here are some questions to try and cover during your in-class presentation (about 10 minutes)
+
+1. What was your requirements?
+    1. Find movie api and get it working
+    2. Have trending movies as home screen
+    3. Have a search function for movie titles
+    4. Have a home button that takes you back to trending movies home screen
+    5. Movies have a rating and an overview
+
+2. Give a high level overview of your application and its features
+
+
+
+
+3. Where does its data come from (external/internal APIs)?
+    - External API
+
+4. How does the back end process this data?
+5. How can the user interact with this data?
+6. What JS techniques have you used (eg. objects/arrays/DOM functions/loops/functions/ifs)?
+7. What external tools/libraries have you used (eg. bootstrap/axios/charts)? How? Why?
+
+8. What kinds of HTML elements have you used (eg. tables, forms, divs, lists, headings, menus, videos, images)?
+    - heading
+    - Links
+    
+9. What kinds of CSS features have you used (eg. animations, backgrounds, fonts, colours, flexbox, grid)?
+    - font import
+    - colours
+    - 
+
+10. How might you extend the features of your application in future?
+    - Make the overview section look nicer- no side bar
