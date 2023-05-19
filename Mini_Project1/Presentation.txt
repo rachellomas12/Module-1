@@ -8,26 +8,41 @@ Here are some questions to try and cover during your in-class presentation (abou
     5. Movies have a rating and an overview
 
 2. Give a high level overview of your application and its features
-
-
-
+    - Fetch data from an api and display data with images and text
+    - Home page shows recent and featured movies
+    - Movies have a title, rating and description
+    - Ratings that have a rating 8+ in green, orange for 5 to 8 and 4 below in red
+    - In the search bar, you are able to search any movie
 
 3. Where does its data come from (external/internal APIs)?
     - External API
 
 4. How does the back end process this data?
+    - The app reads the data from the API and gets the data
+    - It accesses the data and displays on the web page 
+
 5. How can the user interact with this data?
+    - The user can find out what new movies are out
+    - The user can search any movie and find out what its about and its rating
+
 6. What JS techniques have you used (eg. objects/arrays/DOM functions/loops/functions/ifs)?
+    - functions
+    - if/ else statements
+    - 
+
+
 7. What external tools/libraries have you used (eg. bootstrap/axios/charts)? How? Why?
+    - Google fonts
 
 8. What kinds of HTML elements have you used (eg. tables, forms, divs, lists, headings, menus, videos, images)?
-    - heading
+    - Heading
     - Links
     
 9. What kinds of CSS features have you used (eg. animations, backgrounds, fonts, colours, flexbox, grid)?
-    - font import
-    - colours
+    - Font import
+    - Colours
     - 
 
 10. How might you extend the features of your application in future?
     - Make the overview section look nicer- no side bar
+    - More responsive
