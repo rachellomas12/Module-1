@@ -1,3 +1,8 @@
+What is the app and what does it do?
+    - Everything about movies is a page that displays movies, the movies ratings and an overview of it.
+    - The home page displays latest and featured movies.
+    - Search function allows to search any movie
+
 Here are some questions to try and cover during your in-class presentation (about 10 minutes)
 
 1. What was your requirements?
@@ -37,12 +42,13 @@ Here are some questions to try and cover during your in-class presentation (abou
 8. What kinds of HTML elements have you used (eg. tables, forms, divs, lists, headings, menus, videos, images)?
     - Heading
     - Links
+    - forms
+    - Images
     
 9. What kinds of CSS features have you used (eg. animations, backgrounds, fonts, colours, flexbox, grid)?
     - Font import
     - Colours
-    - 
 
 10. How might you extend the features of your application in future?
-    - Make the overview section look nicer- no side bar
     - More responsive
+    - Extend the page to tv shows
