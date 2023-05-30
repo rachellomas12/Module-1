@@ -1,0 +1,7 @@
+Requirements
+
+- Create a calculator that allows the user to:
+    - Select numbers
+    - Choose whether they are + - * / the numbers
+    - Select calculate
+    - The calculation displays in the box
